@@ -1,0 +1,43 @@
+body{
+	background-image:url("bonjour.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#entête {
+	display:flex;
+	flex-direction: column;
+}
+
+.segment{
+	margin-bottom: 15px;
+
+}
+
+#entête1 {
+	display:flex;
+	background-color: white;
+	justify-content: space-between;
+	margin: -0.5%;
+	padding:5px ;
+}
+
+.bouton_entête1 {
+	font-size: 20px;
+}
+
+#entête2 {
+	display:flex;
+	background-color: white;
+	justify-content: center;
+	margin: -0.5%;
+
+}
+
+.bouton_entête2 {
+	font-size: 15px;
+	width: 120px;
+	height: 120px;
+	border-left: 1px grey solid;
+	border-right: 1px grey solid;
+}
