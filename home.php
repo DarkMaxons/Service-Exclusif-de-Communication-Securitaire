@@ -5,7 +5,9 @@
 	<title>Home</title>
 </head>
 <body>
-	<header>
+	<header
+
+	>
 		<div id="entête">
 
 			<div class="segment">
@@ -17,49 +19,65 @@
 					</div>
 					<div class="bouton_entête1">
 						<a href="signup.php">
-						 	sign up
+						 	connexion
 						</a>
 						|
 						<a href="signin.php">
-						 	sign in 
+						 	inscription 
 						</a>
 					</div>
 				</div>	
 			</div>
 
 			<div class="segment">
-				bonjour
+				<h1>Service Exclusif de Communication Securitaire</h1>
 			</div>
 
 			<div class="segment">
 				<div id="entête2">
 
+					<a href="home.php">
 					<div class="bouton_entête2">
-						<a href="home.php">
-						 	Home. 
-						</a>
+						<img src="img/Home.png" class="icon">
+						<p class="texte_bouton_entête2">	
+							Home
+						</p>
 					</div>
+					</a>
 
+					<a href="home.php">
 					<div class="bouton_entête2">
-						<a href="coms.php">
-						 	Coms.
-						</a>
+						<img src="img/Tchat.png" class="icon">
+						<p class="texte_bouton_entête2">	
+							Coms
+						</p>
 					</div>
+					</a>
 
+					<a href="home.php">
 					<div class="bouton_entête2">
-						<a href="staff.php">
-						 	Staff.
-						</a>
+						<img src="img/Admin.png" class="icon">
+						<p class="texte_bouton_entête2">	
+							Staff
+						</p>
 					</div>
+					</a>
 
+					<a href="home.php">
 					<div class="bouton_entête2">
-						<a href="param.php">
-						 	Param.
-						</a>
+						<img src="img/Gear.png" class="icon">
+						<p class="texte_bouton_entête2">	
+							Param
+						</p>
 					</div>
+					</a>
 
 				</div>
 			</div>
+
+
+			<iframe width="420" height="236" src="https://www.youtube.com/embed/HZVMLZ1l7nY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+			class="video"></iframe>
 
 		</div>
 	</header>
